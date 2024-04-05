@@ -1,0 +1,355 @@
+/*!
+ * Template Name : simple-ver-21
+ */
+
+/**********************/
+/* Simple Version 21
+/* Main Carousel Style
+/**********************/
+
+/* 1 - Background color of carousel */
+.simple-ver-21.sz-slider {
+  background: rgba(9, 42, 99, 0.9);
+  -webkit-font-smoothing: antialiased !important;
+}
+
+/*******************/
+/* Simple Version 21
+/* Layer Settings
+/*******************/
+
+/* 1 - Layer - wrapper */
+.simple-ver-21-layer {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  display: block;
+  position: absolute;
+}
+/* 2 - Container - center */
+.simple-ver-21-layer > div {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  margin: auto;
+  font-size: 0;
+  width: 410px;
+  height: 227px;
+  display: block;
+  line-height: 0.92;
+  text-align: center;
+  position: absolute;
+}
+.slider2 > div {
+  width: 450px;
+}
+
+/* 3 - Container - left */
+.simple-ver-21-layer.simple-ver-21-layer-left > div {
+  text-align: left;
+  margin: auto auto auto 14%;
+}
+.slider2 > div {
+  margin-top: 30px !important;
+  text-align: right;
+  margin: 14% 14% auto auto !important;
+}
+/* 4 - Container - right */
+.simple-ver-21-layer.simple-ver-21-layer-right > div {
+  margin-top: 30px !important;
+  text-align: right;
+  margin: auto 14% auto auto;
+}
+/* 5 - Overlays */
+.simple-ver-21-layer::after,
+.simple-ver-21-layer::before {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: "";
+  position: absolute;
+  background: rgba(9, 42, 99, 0.9);
+}
+/* 6 - Overlays - center */
+.simple-ver-21-layer::before {
+  transform: rotate(120deg) translate(0, 300%) scale(5);
+  -webkit-transform: rotate(120deg) translate(0, 300%) scale(5);
+}
+/* 7 - Overlays - center */
+.simple-ver-21-layer::after {
+  transform: rotate(120deg) translate(0, -300%) scale(5);
+  -webkit-transform: rotate(120deg) translate(0, -300%) scale(5);
+}
+/* 8 - Overlays - left */
+.simple-ver-21-layer.simple-ver-21-layer-left::before {
+  transform: rotate(120deg) translate(0, 252%) scale(5);
+  -webkit-transform: rotate(120deg) translate(0, 252%) scale(5);
+}
+/* 9 - Overlays - left */
+.simple-ver-21-layer.simple-ver-21-layer-left::after {
+  transform: rotate(120deg) translate(0, -336%) scale(5);
+  -webkit-transform: rotate(120deg) translate(0, -336%) scale(5);
+}
+/* 10 - Overlays - right */
+.simple-ver-21-layer.simple-ver-21-layer-right::before {
+  transform: rotate(120deg) translate(0, -252%) scale(5);
+  -webkit-transform: rotate(120deg) translate(0, -252%) scale(5);
+}
+/* 11 - Overlays - right */
+.simple-ver-21-layer.simple-ver-21-layer-right::after {
+  transform: rotate(120deg) translate(0, 336%) scale(5);
+  -webkit-transform: rotate(120deg) translate(0, 336%) scale(5);
+}
+/* 12 - 1st child - ( creative website design ideas ) */
+.simple-ver-21-layer > div > span:nth-child(2) {
+  color: #fff;
+  display: block;
+  font-size: 40px;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-family: "Barlow Condensed", sans-serif;
+}
+/* 13 - 2nd child - ( web slide creative animation design ) */
+.simple-ver-21-layer > div > span:nth-child(3) {
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 17px 0 40px 0;
+  text-transform: capitalize;
+  font-family: "Barlow Condensed", sans-serif;
+}
+/* 14 - Button - ( get in touch ) */
+.simple-ver-21-layer > div > a {
+  color: #fff;
+  margin: auto;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  text-align: center;
+  padding: 16px 44px;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  text-decoration: none;
+  border: 1px solid #fff;
+  text-transform: uppercase;
+  font-family: "Anton", sans-serif;
+  transition: background 0.1s ease, border 0.1s ease;
+  -webkit-transition: background 0.1s ease, border 0.1s ease;
+}
+/* 15 - Button - hover - ( get in touch ) */
+.simple-ver-21-layer > div > a:hover {
+  background: #eba939;
+  border-color: #eba939;
+}
+
+/******************/
+/* Responsiveness */
+/******************/
+
+/*----- When the screen size gets = 576px and < 768px -----*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* Container - center */
+  .simple-ver-21-layer > div {
+    width: 330px;
+    height: 210px;
+  }
+  /* 1st child - ( creative website design ideas ) */
+  .simple-ver-21-layer > div > span:nth-child(1) {
+    font-size: 46px;
+  }
+}
+
+/*----- When the screen size gets = 273px and < 576px -----*/
+@media (min-width: 273px) and (max-width: 575.98px) {
+  /* Container - center */
+  .simple-ver-21-layer > div {
+    width: 270px;
+    height: 190px;
+  }
+  /* Container - left &  right */
+  .simple-ver-21-layer.simple-ver-21-layer-left > div,
+  .simple-ver-21-layer.simple-ver-21-layer-right > div {
+    margin: auto;
+    text-align: center;
+  }
+  /* 1st child - ( creative website design ideas ) */
+  .simple-ver-21-layer > div > span:nth-child(1) {
+    font-size: 36px;
+  }
+  /* 1st child - ( creative website design ideas ) */
+  .simple-ver-21-layer > div > span:nth-child(2) {
+    font-size: 16px;
+  }
+}
+
+/*----- When the screen size gets <= 272px -----*/
+@media (max-width: 272.98px) {
+  /* Container - center */
+  .simple-ver-21-layer > div {
+    width: 90%;
+    height: 162px;
+  }
+  /* Container - left &  right */
+  .simple-ver-21-layer.simple-ver-21-layer-left > div,
+  .simple-ver-21-layer.simple-ver-21-layer-right > div {
+    margin: auto;
+    text-align: center;
+  }
+  /* 1st child - ( creative website design ideas ) */
+  .simple-ver-21-layer > div > span:nth-child(1) {
+    font-size: 26px;
+  }
+  /* 1st child - ( creative website design ideas ) */
+  .simple-ver-21-layer > div > span:nth-child(2) {
+    font-size: 14px;
+  }
+  /* Button - ( get in touch ) */
+  .simple-ver-21-layer > div > a {
+    font-size: 14px;
+    padding: 15px 35px;
+  }
+}
+
+/**************************/
+/* Simple Version 21
+/* Left And Right Buttons
+/**************************/
+
+/* 1 - Buttons */
+.simple-ver-21-btn.sz-slider .carousel-control-btn {
+  opacity: 1;
+  width: 50px;
+  color: #fff;
+  height: 50px;
+  display: block;
+  font-size: 16px;
+  line-height: 48px;
+  text-decoration: none;
+  border: 2px solid #fff;
+  background: transparent;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  transition: background 0.1s ease, color 0.1s ease;
+  -webkit-transition: background 0.1s ease, color 0.1s ease;
+}
+/* 2 - Prev - Button */
+.simple-ver-21-btn.sz-slider .carousel-control-btn.carousel-control-prev {
+  margin: 20px auto auto 20px;
+}
+/* 3 - Next - Button */
+.simple-ver-21-btn.sz-slider .carousel-control-btn.carousel-control-next {
+  right: auto;
+  margin: 20px auto auto 75px;
+}
+/* 4 - Buttons - hover */
+.simple-ver-21-btn.sz-slider .carousel-control-btn:hover {
+  color: #000;
+  background: #fff;
+}
+
+/******************/
+/* Responsiveness */
+/******************/
+
+/*----- When the screen size gets = 273px and < 576px -----*/
+@media (min-width: 273px) and (max-width: 575.98px) {
+  /* Buttons */
+  .simple-ver-21-btn.sz-slider .carousel-control-btn {
+    display: none;
+  }
+}
+
+/*----- When the screen size gets <= 272px -----*/
+@media (max-width: 272.98px) {
+  /* Buttons */
+  .simple-ver-21-btn.sz-slider .carousel-control-btn {
+    display: none;
+  }
+}
+
+/*********************/
+/* Simple Version 21
+/* Indicators Buttons
+/*********************/
+
+/* 1 - Indicators - wrapper */
+.sz-slider[data-type="slider"][data-ind-direction="x"]
+  .simple-ver-21-indicators.carousel-indicators {
+  padding: 0;
+  width: 83px;
+  height: 27px;
+  margin: 0 30px 100px auto;
+}
+/* 2 - Indicators - children */
+.sz-slider[data-type="slider"]
+  .simple-ver-21-indicators.carousel-indicators
+  > li {
+  padding: 0;
+  margin: 3px;
+  width: 15px;
+  height: 15px;
+  line-height: 15px;
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  transition: background 0.2s ease, border 0.2s ease;
+  -webkit-transition: background 0.2s ease, border 0.2s ease;
+}
+/* 3 - Indicator - active - child */
+.sz-slider[data-type="slider"]
+  .simple-ver-21-indicators.carousel-indicators
+  > li.active {
+  background: #fff;
+  border: 2px solid #fff;
+}
+/* 4 - Indicators - inside circle */
+.sz-slider[data-type="slider"]
+  .simple-ver-21-indicators.carousel-indicators
+  > li::after {
+  top: 0;
+  left: 0;
+  content: "";
+  width: 10px;
+  height: 10px;
+  margin: auto;
+  right: -0.1px;
+  bottom: 0.01px;
+  position: absolute;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+}
+/* 5 - Indicator - active - inside circle */
+.sz-slider[data-type="slider"]
+  .simple-ver-21-indicators.carousel-indicators
+  > li.active::after {
+  background: #000;
+}
+
+/******************/
+/* Responsiveness */
+/******************/
+
+/*----- When the screen size gets = 273px and < 576px -----*/
+@media (min-width: 273px) and (max-width: 575.98px) {
+  /* Indicators - wrapper */
+  .sz-slider[data-type="slider"][data-ind-direction="x"]
+    .simple-ver-21-indicators.carousel-indicators {
+    display: none;
+  }
+}
+
+/*----- When the screen size gets <= 272px -----*/
+@media (max-width: 272.98px) {
+  /* Indicators - wrapper */
+  .sz-slider[data-type="slider"][data-ind-direction="x"]
+    .simple-ver-21-indicators.carousel-indicators {
+    display: none;
+  }
+}

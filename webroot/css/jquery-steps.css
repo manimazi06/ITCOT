@@ -1,0 +1,138 @@
+.step-app > .step-steps {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+.step-app > .step-steps > li {
+  list-style: none;
+  flex: 1;
+  cursor: pointer;
+  display: block;
+  padding: 10px;
+  color: #333;
+  background-color: #e5e5e5;
+  text-decoration: none;
+  border-right: 1px solid #fff;
+}
+.step-app > .step-steps > li:hover {
+  background-color: #ddd;
+}
+.step-app > .step-steps > li:last-child a {
+  border: none;
+}
+.step-app > .step-steps > li.active {
+  background-color: #32c5d2;
+  color: #fff;
+}
+.step-app > .step-steps > li.error {
+  background-color: #e7505a;
+  color: #fff;
+}
+.step-app > .step-steps > li.done {
+  background-color: #3cb371;
+  color: #fff;
+}
+.step-app > .step-steps > li > .number {
+  background: #fff;
+  padding: 0 8px;
+  display: inline-block;
+  text-align: center;
+  margin-right: 15px;
+  border-radius: 3px;
+  color: #333;
+}
+.step-app > .step-content {
+  /* border: 1px solid #e5e5e5; */
+  padding: 10px;
+  border-top: 0;
+}
+/* .step-app > .step-content > .step-tab-panel {
+  display: none;
+} */
+.step-app > .step-content > .step-tab-panel.active {
+  display: block;
+}
+/*
+.step-app > .step-footer {
+  margin-top: -350px;
+  margin-bottom: 15px;
+}
+*/
+.step-app > .step-footer > .step-btn {
+  padding: 4px 16px;
+  color: #333;
+  text-decoration: none;
+  background: #fff;
+  border-radius: 1px;
+  border: 1px solid #a0a0a0;
+
+  outline: none;
+  cursor: pointer;
+  /* margin-right: 100px; */
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 13px;
+  line-height: 18px;
+  /* identical to box height */
+
+  color: #6a6a6a;
+}
+/*# sourceMappingURL=jquery-steps.css.map */
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .step-app > .step-steps {
+    display: grid;
+    background: #f0f0f1;
+    padding-left: 0px;
+  }
+
+  .step-app > .step-footer {
+    margin-top: 00px;
+    margin-bottom: 15px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .step-app > .step-steps {
+    /* display: grid; */
+    background: #f0f0f1;
+    padding-left: -0px;
+  }
+
+  .step-app > .step-footer {
+    margin-top: 50px;
+    margin-bottom: 15px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .step-app > .step-steps {
+    display: grid;
+    background: #f0f0f1;
+    padding-left: 100px;
+  }
+
+  .step-app > .step-footer {
+    margin-top: -350px;
+    margin-bottom: 15px;
+  }
+}
+/*
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .step-app > .step-steps {
+    display: grid;
+    background: #f0f0f1;
+    padding-left: 0px;
+  }
+
+  .form-input input {
+    width: 150px !important;
+  }
+  .form-input select {
+    width: 150px !important;
+  }
+}
+*/

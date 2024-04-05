@@ -1,0 +1,28 @@
+ .logo-fiber img{
+	 width: 200px;
+	 cursor: pointer;
+ }
+ 
+ .login-page{
+	 width: 100%;
+ }
+ .box-title {
+	 color: #166478;
+	 font-weight: 500;
+ }
+ .normal-font{
+	 font-size: 12px;
+ }
+ .form-material .form-control{
+	 background-color: #f1f0ee;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 12px;
+ }
+ .form-material .form-control, .form-material .form-control.focus, .form-material .form-control:focus {
+ background-image: linear-gradient(#da91cc,#da1f6f),linear-gradient(#e9ecef,#e9ecef);
+ }
+ 
+ .auth-wrapper {
+        min-height: auto;
+}

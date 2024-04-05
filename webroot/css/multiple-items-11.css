@@ -1,0 +1,343 @@
+/*!
+ * Template Name : multiple-items-11
+ */
+
+/**********************/
+/* Multiple Items 11
+/* Main Carousel Style
+/**********************/
+
+/* 1 - Padding - Wrapper */
+.multiple-items-11-wrapper {
+  padding: 30px 105px 5px 105px;
+}
+/* 2 - Background color of carousel */
+.multiple-items-11.sz-slider {
+  background: #fff;
+  padding: 30px 0 0 0;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+/*********************/
+/* Multiple Items 11
+/* Layer Settings
+/*********************/
+
+/* 1 - Layer - wrapper */
+.multiple-items-11-layer {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 90%;
+  z-index: 1;
+  margin: auto;
+  height: 250px;
+  display: block;
+  position: absolute;
+}
+/* 2 - Image & Text Wrapper */
+.multiple-items-11-layer > div {
+  width: 100%;
+  height: 55px;
+  font-size: 0;
+  display: block;
+  position: relative;
+}
+/* 3 - Image */
+.multiple-items-11-layer > div > img {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 55px;
+  display: block;
+  position: absolute;
+  margin: 0 auto auto 0;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+/* 4 - Text */
+.multiple-items-11-layer > div > div {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 78%;
+  height: 100%;
+  font-size: 0;
+  display: block;
+  position: absolute;
+  margin: 0 0 auto auto;
+}
+/* 5 - Name */
+.multiple-items-11-layer > div > div > a:nth-child(1) {
+  color: #2e2f7d;
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.1px;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: "Barlow", sans-serif;
+  transition: color 0.2s ease;
+  -webkit-transition: color 0.2s ease;
+}
+/* 6 - Position */
+.multiple-items-11-layer > div > div > a:nth-child(2) {
+  color: #2e2f7d;
+  font-size: 20px;
+  font-weight: 800;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: "Barlow", sans-serif;
+  transition: color 0.2s ease;
+  -webkit-transition: color 0.2s ease;
+}
+/* 7 - Testimonial */
+.multiple-items-11-layer > span {
+  z-index: 1;
+  width: 93%;
+  color: #666;
+  display: block;
+  font-size: 15px;
+  text-align: left;
+  font-weight: 400;
+  line-height: 1.35;
+  position: relative;
+  background: #f9f9f9;
+  margin: 30px 0 auto auto;
+  padding: 20px 25px 20px 33px;
+  font-family: "Barlow", sans-serif;
+}
+/* 8 - Arrow */
+.multiple-items-11-layer > span::before {
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 0;
+  bottom: 0;
+  height: 0;
+  content: "";
+  font-size: 0;
+  display: block;
+  position: absolute;
+  margin: -25px auto auto 0;
+  border-bottom: 25px solid #f9f9f9;
+  border-right: 25px solid transparent;
+}
+
+/******************/
+/* Responsiveness */
+/******************/
+
+/*----- When the screen size gets = 993px and < 1200px -----*/
+@media (min-width: 993px) and (max-width: 1199.98px) {
+  /* Padding - Wrapper */
+  .multiple-items-11-wrapper {
+    padding: 30px 50px 5px 50px;
+  }
+  /* Layer - wrapper */
+  .multiple-items-11-layer {
+    width: 95%;
+  }
+  /* Text */
+  .multiple-items-11-layer > div > div {
+    width: 75%;
+  }
+  /* Testimonial */
+  .multiple-items-11-layer > span {
+    width: 95%;
+    padding: 25px;
+    font-size: 14px;
+  }
+}
+
+/*----- When the screen size gets = 769px and < 992px -----*/
+@media (min-width: 769px) and (max-width: 992.98px) {
+  /* Padding - Wrapper */
+  .multiple-items-11-wrapper {
+    padding: 30px 50px 5px 50px;
+  }
+}
+
+/*----- When the screen size gets = 576px and < 768px -----*/
+@media (min-width: 576px) and (max-width: 768.98px) {
+  /* Padding - Wrapper */
+  .multiple-items-11-wrapper {
+    padding: 30px 50px 5px 50px;
+  }
+  /* Layer - wrapper */
+  .multiple-items-11-layer {
+    width: 95%;
+  }
+  /* Text */
+  .multiple-items-11-layer > div > div {
+    width: 70%;
+  }
+  /* Testimonial */
+  .multiple-items-11-layer > span {
+    width: 98%;
+    padding: 20px;
+    font-size: 14px;
+  }
+}
+
+/*----- When the screen size gets <= 575.98px -----*/
+@media (max-width: 575.98px) {
+  /* Padding - Wrapper */
+  .multiple-items-11-wrapper {
+    padding: 100px 0 5px 0;
+  }
+  /* carousel */
+  .multiple-items-11.sz-slider {
+    width: 240px !important;
+  }
+  /* Layer - wrapper */
+  .multiple-items-11-layer {
+    width: 99%;
+    height: 220px;
+  }
+  /* Text */
+  .multiple-items-11-layer > div > div {
+    width: 70%;
+  }
+  /* Testimonial */
+  .multiple-items-11-layer > span {
+    width: 100%;
+    padding: 15px;
+    font-size: 13px;
+  }
+}
+
+/**************************/
+/* Multiple Items 11
+/* Left And Right Buttons
+/**************************/
+
+/* 1 - Buttons */
+.multiple-items-11-btn.sz-slider .carousel-control-btn {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 1;
+  z-index: 15;
+  color: #666;
+  width: 35px;
+  height: 35px;
+  font-size: 0;
+  background: #f8f8f8;
+  text-decoration: none;
+  transition: color 0.2s ease, background 0.2s ease;
+  -webkit-transition: color 0.2s ease, background 0.2s ease;
+}
+/* 2 - Prev - Button */
+.multiple-items-11-btn.sz-slider .carousel-control-btn.carousel-control-prev {
+  right: 38px;
+  margin: 0 auto auto auto;
+  border-radius: 25px 0 0 25px;
+  -webkit-border-radius: 25px 0 0 25px;
+}
+/* 3 - Next - Button */
+.multiple-items-11-btn.sz-slider .carousel-control-btn.carousel-control-next {
+  left: 38px;
+  margin: 0 auto auto auto;
+  border-radius: 0 25px 25px 0;
+  -webkit-border-radius: 0 25px 25px 0;
+}
+/* 4 - Hover */
+.multiple-items-11-btn.sz-slider .carousel-control-btn:hover {
+  color: #fff;
+  background: #2e2f7d;
+}
+/* 5 - Icons */
+.multiple-items-11-btn.sz-slider .carousel-control-btn > i {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: #666;
+  width: 10px;
+  height: 10px;
+  margin: auto;
+  font-size: 10px;
+  position: absolute;
+  display: inline-block;
+  transition: color 0.2s ease;
+  -webkit-transition: color 0.2s ease;
+}
+/* 6 - Icons - hover */
+.multiple-items-11-btn.sz-slider .carousel-control-btn:hover > i {
+  color: #fff;
+}
+
+/*********************/
+/* Multiple Items 2
+/* Indicators Buttons
+/*********************/
+
+/* 1 - Indicators - wrapper */
+.sz-slider[data-type="carousel"][data-ind-direction="x"]
+  .multiple-items-11-indicators.carousel-indicators {
+  padding: 0;
+  width: 130px;
+  height: 21px;
+  margin: auto auto 10px auto;
+}
+/* 2 - Indicators - children */
+.sz-slider[data-type="carousel"]
+  .multiple-items-11-indicators.carousel-indicators
+  > li {
+  padding: 0;
+  margin: 4px;
+  width: 13px;
+  height: 13px;
+  border: none;
+  background: #fff;
+  line-height: 13px;
+  border-radius: 0 25px 25px 0;
+  -webkit-border-radius: 0 25px 25px 0;
+  box-shadow: 0 0 0 2px #e5e5e5;
+  -webkit-box-shadow: 0 0 0 2px #e5e5e5;
+  transition: background 0.2s ease, border 0.2s ease, box-shadow 0.2s ease;
+  -webkit-transition: background 0.2s ease, border 0.2s ease,
+    -webkit-box-shadow 0.2s ease;
+}
+/* 3 - Indicator - active - child */
+.sz-slider[data-type="carousel"]
+  .multiple-items-11-indicators.carousel-indicators
+  > li.active {
+  border: none;
+  background: rgb(46, 47, 125, 0.5);
+  box-shadow: 0 0 0 2px rgb(46, 47, 125, 0.5);
+  -webkit-box-shadow: 0 0 0 2px rgb(46, 47, 125, 0.5);
+}
+/* 4 - Indicators - inside circle */
+.sz-slider[data-type="carousel"]
+  .multiple-items-11-indicators.carousel-indicators
+  > li::after {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: "";
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  position: absolute;
+  background: #e5e5e5;
+  transform: scale(0.7);
+  -webkit-transform: scale(0.7);
+  border-radius: 0 25px 25px 0;
+  -webkit-border-radius: 0 25px 25px 0;
+  transition: background 0.2s ease;
+  -webkit-transition: background 0.2s ease;
+}
+/* 5 - Indicator - active - inside circle */
+.sz-slider[data-type="carousel"]
+  .multiple-items-11-indicators.carousel-indicators
+  > li.active::after {
+  background: #2e2f7d;
+}
